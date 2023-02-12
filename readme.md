@@ -53,9 +53,13 @@ RabbitMQ:
 
 - ~/.docker-conf/rabbitmq/data/ maps to /var/lib/rabbitmq/
 - ~/.docker-conf/rabbitmq/log/ maps to /var/log/rabbitmq
-  Sender:
+
+Sender:
+
 - ./sender maps to the /sender directory in the container
-  Receiver:
+
+Receiver:
+
 - ./reciever maps to the /reciever directory in the container
 
 ## Deployment
