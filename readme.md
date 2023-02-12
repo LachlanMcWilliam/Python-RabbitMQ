@@ -50,11 +50,13 @@ The following ports are exposed by the services:
 The following volumes are used by the services:
 
 RabbitMQ:
-~/.docker-conf/rabbitmq/data/ maps to /var/lib/rabbitmq/
-~/.docker-conf/rabbitmq/log/ maps to /var/log/rabbitmq
-Sender: ./sender maps to the /sender directory in the container
-Receiver: ./reciever maps to the /reciever directory in the container
-Deployment
+~/.docker-conf/rabbitmq/data/ maps to /var/lib/rabbitmq/<br />
+~/.docker-conf/rabbitmq/log/ maps to /var/log/rabbitmq<br />
+Sender: ./sender maps to the /sender directory in the container<br />
+Receiver: ./reciever maps to the /reciever directory in the container<br />
+
+## Deployment
+
 The Receiver service is deployed in replicated mode with 3 replicas.
 
 ## Healthchecks
