@@ -1,6 +1,6 @@
 # Python RabbitMQ
 
-Made this to learn how to use RabbitMQ with Python. The project consists of 3 services: RabbitMQ, Sender and Receiver. The Sender service sends messages to RabbitMQ and the Receiver service receives messages from RabbitMQ. The Receiver service is deployed in replicated mode with 3 replicas to check that laod balancing across the containers works. The Receiver is deployed as a Flask application so that multiple requests can be made to a API endpoint in order to send messages to RabbitMQ.
+Made this to learn how to use RabbitMQ with Python. The project consists of 3 services: RabbitMQ, Sender and Receiver. The Sender service sends messages to RabbitMQ and the Receiver service receives messages from RabbitMQ. The Receiver service is deployed in replicated mode with 3 replicas to check that load balancing across the containers works. The Receiver is deployed as a Flask application so that multiple requests can be made to a API endpoint in order to send messages to RabbitMQ.
 
 ## Requirements
 
@@ -60,7 +60,7 @@ Sender:
 
 Receiver:
 
-- ./reciever maps to the /reciever directory in the container
+- ./receiver maps to the /receiver directory in the container
 
 ## Deployment
 
